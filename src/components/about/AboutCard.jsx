@@ -34,7 +34,7 @@ const AboutCard = () => {
             <img src='./images/about.webp' alt='' />
           </div>
           <div className='right row'>
-            <Heading subtitle='People Technology Posibilities' title='Benefits About Online Tech Expertise' />
+            <Heading subtitle='People Technology Posibilities' title='About Us' />
             <div className='items'>
               {homeAbout.map((val) => {
                 return (
