@@ -8,7 +8,7 @@ export const homeAbout = [
   },
   {
     id: 1,
-    cover: "https://img.icons8.com/ios/80/000000/diploma.png",
+    
     title: "Our Vision",
     desc: "To be the most preferred technological based company in Nigeria and beyond that provide the right kind of products, provide the right kind of services with boundless possibilities of adding value positively to humanity.",
   },
