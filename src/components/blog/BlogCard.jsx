@@ -2,34 +2,34 @@ import React from "react"
 import { blog } from "../../dummydata"
 import Header from "../common/header/Header"
 
-const BlogCard = () => {
+const BlogCard = ({image, text1, text2, text3}) => {
   return (
     <>
-      {blog.map((val) => (
+      
         <div className='items shadow'>
           <div className='img'>
-            <img src={val.cover} alt='' />
+            <img src={image} alt='' />
           </div>
           <div className='text'>
             <div className='admin flexSB'>
               <span>
                 <i className='fa fa-user'></i>
-                <label htmlFor=''>{val.type}</label>
+                <label>{text1}</label>
               </span>
               <span>
                 <i className='fa fa-calendar-alt'></i>
-                <label htmlFor=''>{val.date}</label>
+                <label>{text2}</label>
               </span>
               <span>
                 <i className='fa fa-comments'></i>
-                <label htmlFor=''>{val.com}</label>
+                <label>{text3}</label>
               </span>
             </div>
-            <h1>{val.title}</h1>
-            <p>{val.desc}</p>
+            <h1></h1>
+            <p></p>
           </div>
         </div>
-      ))}
+    
     </>
   )
 }
