@@ -15,8 +15,11 @@
 .logo h1 {
   font-size: 35px;
   font-weight: 900;
+  cursor: pointer;
 }
-
+.logo:hover{
+  transform: scale(1.5);
+}
 .logo {
   opacity: 0;
   transform: translateY(20px);
@@ -74,7 +77,7 @@ header ul li a:hover {
 }
 .start .button:hover{
   scale: 1.1;
-  color: rgb(126, 126, 126);
+  color: rgb(233, 233, 233);
 }
 
 .toggle {

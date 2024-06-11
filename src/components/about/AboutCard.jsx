@@ -31,7 +31,7 @@ const AboutCard = () => {
         
         <div className='container flexSB'>
           <div className='left row'>
-            <img src='./images/about.webp' alt='' />
+            <img src='./images/Bout-.png' alt='' />
           </div>
           <div className='right row'>
             <Heading subtitle='People Technology Posibilities' title='About Us' />
