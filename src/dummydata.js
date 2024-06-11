@@ -2,19 +2,19 @@ export const homeAbout = [
   
   {
     id: 1,
-    cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
+    cover: "../images/Mission.jpg",
     title: "Our Mission",
     desc: "To link consumers with service providers via developed content based products that service the global ICT sphere.",
   },
   {
     id: 1,
-    
+    cover: "../images/Vision.jpg",
     title: "Our Vision",
-    desc: "To be the most preferred technological based company in Nigeria and beyond that provide the right kind of products, provide the right kind of services with boundless possibilities of adding value positively to humanity.",
+    desc: "To be the most preferred technological based company in Nigeria and beyond that provide the right kind of products.",
   },
   {
     id: 1,
-    cover: "https://img.icons8.com/ios/80/000000/athlete.png",
+    cover:"../images/Value.jpg",
     title: "Our Values",
     desc: "Excellence and timely delivery of solutions, improvement and possibilities.",
   },
@@ -252,27 +252,27 @@ export const team = [
     work: "C.E.O AND LEAD INSTRUCTOR",
   },
   {
-    cover: "./images/team/Rectangle 25.png",
-    name: "Dr. Zaniab .K",
+    cover: "./images/team/Zee.JPG",
+    name: "Miss Zaniab .K",
     work: "DEVELOPER AND UI & UX INSTRUCTOR",
   },
   {
-    cover: "./images/team/t3.webp",
-    name: "Dev. SanziNiyu Gbadamusi",
+    cover: "./images/team/CTO.JPG",
+    name: "Ms SanziNiyu Gbadamusi",
     work: "DEVELOPER AND C.T.O",
   },
   {
-    cover: "./images/team/team5.jfif",
-    name: "Miss Racheal",
+    cover: "./images/team/Rach.JPG",
+    name: "Mrs Racheal",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
-    cover: "./images/team/t5.webp",
+    cover: "./images/team/Billy.JPG",
     name: "Dr. Billy ",
     work: "DEVELOPER AND INSTRUCTOR",
   },
   {
-    cover: "./images/team/team3.jfif",
+    cover: "./images/team/Walix.JPG",
     name: "Waliyu G.",
     work: "JNR. DEVELOPER AND INSTRUCTOR",
   },
@@ -282,7 +282,7 @@ export const team = [
     work: "JNR. DEVELOPER AND INSTRUCTOR",
   },
   {
-    cover: "./images/team/t8.webp",
+    cover: "./images/team/Wiz.Jpeg",
     name: "Clement Wisdom",
     work: "JNR. DEVELOPER AND INSTRUCTOR",
   },
@@ -341,8 +341,8 @@ export const blog = [
     type: "Admin",
     date: "JAN. 18, 2021",
     com: "37 COMMENTS ",
-    title: "AdaIn Technology Ltd",
-    desc: "A Technological Company Enhancing the Globe.",
+    title: "Artificial Intelligence",
+    desc: "We take you through the process of design and Development .",
     cover: "../images/Adnet.PNG",
   },
   {

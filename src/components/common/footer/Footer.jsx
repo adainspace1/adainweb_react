@@ -21,8 +21,8 @@ const Footer = () => {
       <footer>
         <div className='container padding'>
           <div className='box logo'>
-            <h1>ADAIN TECHNOLOGY</h1>
-            <span>PEOPLE TECHNOLOGY & POSIBILITIES</span>
+            <h1>ADAIN TECHNOLOGIES</h1>
+            <span>PEOPLE TECHNOLOGIES & POSIBILITIES</span>
             <p>Adain Technologies: Pioneering the future with cutting-edge AI and innovative tech solutions. 
               Empowering businesses through intelligent automation and seamless integration.</p>
 
@@ -30,6 +30,8 @@ const Footer = () => {
             <i className='fab fa-twitter icon'></i>
             <i className='fab fa-instagram icon'></i>
           </div>
+          <br />
+          <br />
           <div className='box link'>
             <h3>Explore</h3>
             <ul>
@@ -44,9 +46,13 @@ const Footer = () => {
             <h3>Quick Links</h3>
             <ul>
               <li>Contact Us</li>
+
               <li>Pricing</li>
+
               <li>Terms & Conditions</li>
+
               <li>Privacy</li>
+              
               <li>Feedbacks</li>
             </ul>
           </div>
@@ -75,12 +81,12 @@ const Footer = () => {
             <h3>Have a Questions?</h3>
             <ul>
               <li>
-                <i className='fa fa-map'></i>
+                {/* <i className='fa fa-map'></i>  */}
                 No:01 SkyBlue Building, Opposite Beam Clinic, Mararaba, Nigeria
               </li>
               <li>
                 <i className='fa fa-phone-alt'></i>
-                +2 392 3929 210
+                +234-908-2603-201
               </li>
               <li>
                 <i className='fa fa-paper-plane'></i>
