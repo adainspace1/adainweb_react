@@ -109,7 +109,7 @@
     padding: 100px 0;
   }
   .aboutHome .left img{
-    display: none;
+    display: flex;
   }
 }
 
@@ -132,9 +132,6 @@
   }
   .awrapper h1 {
     font-size: 40px;
-  }
-  .aboutHome .left img{
-    display: none;
   }
 }
 

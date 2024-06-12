@@ -402,8 +402,8 @@ export const testimonal = [
   {
     id: 2,
     name: "Sarah Johnson",
-    post: " Marketing Director at GreenWave Solutions",
-    desc: "Partnering with Adain has been a game-changer. Their targeted campaigns boosted our lead generation by 40%, and their dedication to our success is unmatched. We couldn't be happier with the results.",
+    post: " Marketing Director ",
+    desc: "Partnering with Adain has been a game-changer. Their targeted campaigns boosted our lead generation by 40%, and their dedication to our success is unmatched. ",
     cover: "./images/testo/lady.jpg",
   },
   {

@@ -98,6 +98,9 @@ header ul li a:hover {
   .head .icon {
    display: none;
   }
+  .head{
+    box-sizing: border-box;
+  }
   .start{
     display: none;
   }

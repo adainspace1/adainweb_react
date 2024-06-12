@@ -7,12 +7,10 @@ import Blog from './components/blog/Blog';
 import Contact from './components/contact/Contact';
 import Home from './components/home/Home';
 import './App.css'
-import Footer from './components/common/footer/Footer';
-import Header from './components/common/header/Header';
+
 
 
 function App() {
-  const [menuActive, setMenuActive] = useState(false);
 
   
   return (

@@ -1,6 +1,6 @@
 import React from "react"
-import { blog } from "../../../dummydata"
 import "./footer.css"
+import { blog } from "../../../dummydata"
 
 const Footer = () => {
   return (
@@ -29,6 +29,7 @@ const Footer = () => {
             <i className='fab fa-facebook-f icon'></i>
             <i className='fab fa-twitter icon'></i>
             <i className='fab fa-instagram icon'></i>
+            <i className='fab fa-youtube icon'></i>
           </div>
           <br />
           <br />
@@ -98,7 +99,7 @@ const Footer = () => {
       </footer>
       <div className='legal'>
         <p>
-          Copyright ©2024   <div></div> All rights reserved | Made<i className='fa fa-Technology'></i> by AdaIn Ltd
+          Copyright ©2024  ||All rights reserved | Made<i className='fa fa-Technology'></i> by AdaIn Ltd
         </p>
       </div>
     </>

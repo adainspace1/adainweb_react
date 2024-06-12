@@ -87,7 +87,7 @@
 /* Media Queries for responsive design */
 @media screen and (max-width: 1024px) {
   .hero {
-    background-position: center -60px;
+    background-position: cover;
     padding-top: 30%;
     height: 90vh;
   }
