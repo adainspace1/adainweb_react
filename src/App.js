@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './components/about/About';
 import CourseHome from './components/allcourses/CourseHome';
@@ -10,7 +10,11 @@ import './App.css'
 import Footer from './components/common/footer/Footer';
 import Header from './components/common/header/Header';
 
+
 function App() {
+  const [menuActive, setMenuActive] = useState(false);
+
+  
   return (
     
       <Routes>

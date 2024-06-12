@@ -13,8 +13,8 @@ const Blog = () => {
       <Back title='Our Products' />
       <section className='blog padding'>
         <div className='container grid2'>
-          <BlogCard image="./images/_" text1='Hacked8 Academy' text2='02-Dec-2023'/>
-          <BlogCard image="./images/" text1='Geez Fashion' text2='09-Sept-2021'/>
+          <BlogCard image="./images/hack8.PNG" text1='Hacked8 Academy' text2='02-Dec-2023'/>
+          <BlogCard image="./images/" text1='QuickMed' text2='09-Sept-2021'/>
           <BlogCard image="./images/Mission.jpg" text1='Geez Fashion' text2='09-Sept-2021'/>
           <BlogCard image="./images/Mission.jpg" text1='Geez Fashion' text2='09-Sept-2021'/>
         </div>

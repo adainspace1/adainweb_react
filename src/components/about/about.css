@@ -1,91 +1,144 @@
+/* General Styles */
 .aboutHome {
   height: auto;
+  transition: opacity 1s ease-out, transform 1s ease-out;
 }
+
 .aboutHome #heading {
   text-align: left;
-  padding: 10;
+  padding: 10px;
 }
+
 .aboutHome .left img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* margin-left: 70px; */
-  margin-top: -0px;
+  margin-top: 0px;
 }
 
-.aboutHome{
-    /* Initial hidden state for smooth reveal */
- 
-    transition: opacity 1s ease-out, transform 1s ease-out;
-  }
-  
-  .aboutHome.revealed {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  
-
-
-/* Continue for more elements if needed */
+.aboutHome.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 .aboutHome .right {
   padding: 80px 50px;
 }
+
 .aboutHome .items {
   margin-top: 70px;
 }
+
 .aboutHome .item {
   background-color: #fff;
   margin-top: 30px;
   padding: 20px;
   transition: 0.5s;
 }
+
 .aboutHome .img {
   width: 200px;
 }
+
 .aboutHome img {
   width: 70px;
   height: 70px;
 }
+
 .aboutHome .item h2 {
   font-size: 20px;
   margin-bottom: 15px;
 }
+
 .aboutHome .item p {
   color: #999999;
 }
+
 .aboutHome .item:hover {
   background-color: #ff7e00;
   color: #fff;
   cursor: pointer;
   box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
 }
+
 .aboutHome .item:hover p {
   color: #fff;
 }
-/*----------awrapper------------*/
+
+/* awrapper */
 .awrapper {
- background-color: rgba(0, 0, 0, 0.979);
+  background-color: rgba(0, 0, 0, 0.979);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 30vh;
   color: #fff;
 }
+
 .awrapper .box {
   padding: 70px 0;
 }
+
 .awrapper img {
   margin-right: 30px;
 }
+
 .awrapper h1 {
   font-size: 50px;
 }
+
 .awrapper h3 {
   font-size: 20px;
   font-weight: 500;
 }
-/*----------awrapper------------*/
+
+/* Media Queries */
+
+/* Large screens (desktops, 1025px and up) */
+@media screen and (min-width: 1025px) {
+  .aboutHome{
+    margin-top: 30px;
+  }
+  .aboutHome .right {
+    padding: 80px 100px;
+  }
+  .aboutHome .item {
+    padding: 30px;
+  }
+  .awrapper .box {
+    padding: 100px 0;
+  }
+  .aboutHome .left img{
+    display: none;
+  }
+}
+
+/* Medium screens (tablets, 769px to 1024px) */
+@media screen and (max-width: 1024px) {
+  .aboutHome{
+    margin-top: 30px;
+  }
+  .aboutHome{
+    margin-top: 30px;
+  }
+  .aboutHome .right {
+    padding: 60px 40px;
+  }
+  .aboutHome .item {
+    padding: 25px;
+  }
+  .awrapper {
+    height: 40vh;
+  }
+  .awrapper h1 {
+    font-size: 40px;
+  }
+  .aboutHome .left img{
+    display: none;
+  }
+}
+
+/* Small screens (phones, 481px to 768px) */
 @media screen and (max-width: 768px) {
   .aboutHome .container {
     flex-direction: column-reverse;
@@ -93,7 +146,55 @@
   .aboutHome .row {
     width: 100%;
   }
+  .aboutHome .right {
+    padding: 40px 20px;
+  }
+  .aboutHome .left img{
+    display: none;
+  }
+  .aboutHome .item {
+    padding: 20px;
+  }
+  .aboutHome img {
+    width: 50px;
+    height: 50px;
+  }
   .awrapper {
     height: 50vh;
+  }
+  .awrapper h1 {
+    font-size: 35px;
+  }
+  .awrapper h3 {
+    font-size: 18px;
+  }
+}
+
+/* Extra small screens (phones, 480px and below) */
+@media screen and (max-width: 480px) {
+  .aboutHome #heading {
+    text-align: center;
+  }
+  .aboutHome .right {
+    padding: 20px 10px;
+  }
+  .aboutHome .item {
+    padding: 15px;
+  }
+  .aboutHome img {
+    width: 40px;
+    height: 40px;
+  }
+  .aboutHome .item h2 {
+    font-size: 18px;
+  }
+  .awrapper {
+    height: 60vh;
+  }
+  .awrapper h1 {
+    font-size: 30px;
+  }
+  .awrapper h3 {
+    font-size: 16px;
   }
 }

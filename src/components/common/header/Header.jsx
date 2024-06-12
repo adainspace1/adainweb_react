@@ -4,7 +4,7 @@ import Head from "./Head"
 import "./header.css"
 
 const Header = () => {
-  const [click, setClick] = useState(false)
+  const [click, setClick] = useState(false);
 
   return (
     <>
