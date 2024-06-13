@@ -175,8 +175,11 @@ p {
     grid-template-columns: 1fr;
   }
   .head{
-    margin: 0;
-    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
   }
   .back {
     background-position: center;
@@ -226,6 +229,13 @@ p {
   }
 }
 @media screen and (max-width: 530px){
+  .head{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
   .toggle {
     display: block;
     background: none;
@@ -259,6 +269,13 @@ p {
   }
 }
 @media screen and (max-width: 480px) {
+  .head{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
   .container {
     max-width: 100%;
     padding: 0 10px;

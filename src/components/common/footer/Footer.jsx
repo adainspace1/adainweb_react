@@ -79,7 +79,7 @@ const Footer = () => {
             ))}
           </div> */}
           <div className='box last'>
-            <h3>Have a Questions?</h3>
+            <h3>Have a Question?</h3>
             <ul>
               <li>
                 {/* <i className='fa fa-map'></i>  */}

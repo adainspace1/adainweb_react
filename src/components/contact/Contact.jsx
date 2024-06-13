@@ -3,15 +3,39 @@ import Back from "../common/back/Back";
 import "./contact.css";
 import Header from "../common/header/Header";
 import Footer from "../common/footer/Footer";
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import 'leaflet/dist/leaflet.css';
+import L from 'leaflet';
+
+// Fix the default marker icon issue with webpack
+delete L.Icon.Default.prototype._getIconUrl;
+
+L.Icon.Default.mergeOptions({
+  iconRetinaUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon-2x.png',
+  iconUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png',
+  shadowUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png',
+});
 
 function Contact() {
+  const position = [ 9.072264, 7.491302];
+
   return (
     <>
       <Header />
-      <Back title='Contact us' />
+   <Back title='Contact us' />
       <section className='contacts padding'>
         <div className='container shadow flexSB'>
           <div className='left row'>
+            <MapContainer center={position} zoom={13} style={{ height: '400px', width: '100%' }}>
+              <TileLayer
+                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+              />
+              <Marker position={position}>
+                <Popup>
+                  A marker at the coordinates 9.0267, 7.6074.
+                </Popup>
+              </Marker>
+            </MapContainer>
           </div>
           <div className='right row'>
             <h1>Contact us</h1>
