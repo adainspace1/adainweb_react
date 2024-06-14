@@ -99,7 +99,7 @@ const Footer = () => {
       </footer>
       <div className='legal'>
         <p>
-          Copyright ©2024  ||All rights reserved | Made<i className='fa fa-Technology'></i> by AdaIn Ltd
+          Copyright ©2024 <br />All rights reserved | Made by AdaIn Ltd
         </p>
       </div>
     </>

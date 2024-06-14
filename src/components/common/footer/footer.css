@@ -68,8 +68,9 @@ footer .container {
   margin-bottom: 35px;
 }
 .legal p{
-  margin-left: 400px;
+  margin-left: -400px;
   color: #ff7e00;
+  font-size: 8px;
 }
 
 
@@ -148,8 +149,4 @@ footer .last i {
 }
 .legal p {
   font-size: 15px;
-}
-.legal i {
-  color: #ff7e00;
-}
-}  
+}}  
